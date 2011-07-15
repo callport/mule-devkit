@@ -118,6 +118,11 @@
             <name>Codehaus Snapshots</name>
             <url>http://snapshots.repository.codehaus.org/</url>
         </repository>
+		<repository>
+			<id>jboss</id>
+			<name>JBoss Repository</name>
+			<url>http://repository.jboss.com/</url>
+		</repository>
     </repositories>
 
 </project>  
