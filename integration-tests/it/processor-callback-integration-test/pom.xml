@@ -3,10 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.mule.devkit.it</groupId>
-    <artifactId>optional-integration-test</artifactId>
+    <artifactId>processor-callback-integration-test</artifactId>
     <version>1.0</version>
     <packaging>mule-module</packaging>
-    <name>Mule DevKit Optional Integration Tests</name>
+    <name>Mule DevKit Processor Callback Integration Tests</name>
 
     <build>
         <pluginManagement>
@@ -14,7 +14,7 @@
                 <plugin>
                     <groupId>org.mule.tools.devkit</groupId>
                     <artifactId>mule-devkit-maven-plugin</artifactId>
-                    <version>@project.version@</version>
+                    <version>1.0-SNAPSHOT</version>
                     <extensions>true</extensions>
                 </plugin>
                 <plugin>
@@ -40,7 +40,7 @@
             <plugin>
                 <groupId>org.mule.tools.devkit</groupId>
                 <artifactId>mule-devkit-maven-plugin</artifactId>
-                <version>@project.version@</version>
+                <version>1.0-SNAPSHOT</version>
                 <extensions>true</extensions>
             </plugin>
         </plugins>
@@ -95,7 +95,7 @@
         <dependency>
             <groupId>org.mule.tools.devkit</groupId>
             <artifactId>mule-devkit-annotations</artifactId>
-            <version>@project.version@</version>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.mule.tests</groupId>

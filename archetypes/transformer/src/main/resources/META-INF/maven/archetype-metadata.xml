@@ -30,9 +30,6 @@
         </requiredProperty>
         <requiredProperty key="muleModuleName"/>
         <requiredProperty key="muleModulePackage"/>
-        <requiredProperty key="muleVersion">
-            <defaultValue>3.1.0</defaultValue>
-        </requiredProperty>
     </requiredProperties>
 
     <fileSets>

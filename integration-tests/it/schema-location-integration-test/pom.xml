@@ -119,4 +119,12 @@
             <classifier>asl</classifier>
         </dependency>
     </dependencies>
+
+        <repositories>
+        <repository>
+            <id>codehaus-snapshots</id>
+            <name>Codehaus Snapshots</name>
+            <url>http://snapshots.repository.codehaus.org/</url>
+        </repository>
+    </repositories>
 </project>
